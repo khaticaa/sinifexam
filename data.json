@@ -1,0 +1,72 @@
+{
+
+"data" :[
+
+    {   "image" :"assets/images/dish-3.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" : 1,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+        
+    },
+
+    {
+        "image" :"assets/images/dish-4.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" : 2,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+    },
+    {   "image" :"assets/images/dish-5.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" : 3,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+    },
+    {
+        "image" :"assets/images/dish-5.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" : 4,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+    },
+    {   "image" :"assets/images/dish-6.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" : 5,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+    },
+    {    "image" :"assets/images/dish-7.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" :6,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+    },
+    { "image" :"assets/images/dish-8.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" :7,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+    },
+    {    "image" :"assets/images/dish-9.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" :8,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+    },
+    {    "image" :"assets/images/dish-10.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" :9,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+    },
+    {   "image" :"assets/images/dish-11.jpg",
+        "name": "Grilled Beef with potatoes",
+        "id" :10,
+        "description":"Meat, Potatoes, Rice, Tomatoe",
+        "prize" : 29
+    }
+
+]
+
+}
