@@ -60,3 +60,16 @@ gap: 20px;
 }
 
 
+nav{
+    width: 100%;
+    padding: 30px 0px;
+    .nav-o{
+        @include justify;
+
+        ul{
+            list-style: none;
+            @include center;
+            gap: 30px;
+        }
+    }
+}
