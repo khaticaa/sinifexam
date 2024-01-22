@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-   <form id="form">
-    <label for="name">Name:</label>
-    <input type="text" id="name" >
+<section>
+<form>
+  <input type="file" id="file">
+  <p style="display: none; color:red " >Xanalari doldur</p>
 
-    <label for="description">Description:</label>
-    <input type="text" id="Description">
+  <label for="name">Name:</label>
+  <input type="text"id="name">
+  <p style="display: none; color:red " >Xanalari doldur</p>
 
-    <label for="Price">Price:</label>
-    <input type="text" id="Price"  placeholder="Enter price..." />
+  <label for="description">Description:</label>
+  <input type="text" id="description">
+  <p style="display: none; color:red " >Xanalari doldur</p>
 
-    
-    <label for="">Photo:</label>
-          <div class="imageCont">
-            <img src="" class="rounded-image" alt="">
-          </div>
-          <input type="file" class="photo" placeholder="Enter photo..." />
-          <br />
-          <button class="addbtn">ADD</button>
-        
-   </form>
+  <label for="prize">Prize:</label>
+  <input type="number" name="" id="prize">
+  <p style="display: none; color:red " >Xanalari doldur</p>
 
-   <table>
-    <tr>
-      <th>ID:</th>
-      <th>Name:</th>
-      <th>Description:</th>
-      <th>Delete</th>
-    </tr>
-  </table>
+
+<input type="submit" id="submit">
+
+</form>
+
+</section>
 
 
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
-   integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
-   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script src="assets/js/add.js"></script>
+<table border="1">
+  <tr>
+    <th>ID:</th>
+    <th>NAME</th>
+    <th>DESCRIPTION</th>
+    <th>PRIZE:</th>
+    <th>Delete</th>
+    <th>Update</th>
+  </tr>
+</table>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/js/add.js"></script>
 </body>
 </html>
+
